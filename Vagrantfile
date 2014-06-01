@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 4000, host: 4001
 
   # node
-  config.vm.network "forwarded_port", guest: 8080. host: 8081
+  config.vm.network "forwarded_port", guest: 8080, host: 8081
 
   # javascript livereload
   # livereload does not support using a different port because lol
