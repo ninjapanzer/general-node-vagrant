@@ -1,0 +1,27 @@
+# tmp contains downloaded files
+tmp/
+
+# contains data specific to this virtual machine
+.vagrant
+
+# ignore env, which should contain user-specific values
+env
+
+
+# cloned app repositories which should not be considered part of this repository
+apangea/
+lesson-player/
+techblog/
+Flash/
+equation-builder/
+reporting/
+live_teaching/
+javascript-calculator/
+ttm-coffeescript-math/
+ttm-coffeescript-utilities/
+
+# aws-deploy (need to decide if this still is part of vagrant)
+aws-deploy/
+
+# personal preferences
+Vagrantfile.extra

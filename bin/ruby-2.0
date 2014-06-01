@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec rvm ruby-2.0.0-p357 do ruby "$@"

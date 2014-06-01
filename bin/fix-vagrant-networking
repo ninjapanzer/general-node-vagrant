@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# if you are in a vagrant shell
+# and for whatever reasons the VM doesn't have 
+# network connectivity, this command will restart it
+# to be run from the guest ubuntu machine
+
+if [ "$UID" != "0" ] ; 
+then 
+    echo error: command must be run as root
+    exit 10
+fi
+/etc/init.d/networking restart
