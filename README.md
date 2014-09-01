@@ -4,6 +4,8 @@ Go install Vagrant
 
 `https://www.vagrantup.com/downloads`
 
+`vagrant plugin install vagrant-vbguest`
+
 `Vagrant up`
 
 `Vagrant ssh`
